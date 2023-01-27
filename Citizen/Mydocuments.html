@@ -59,7 +59,7 @@ body {
 }
 /* Footer */
 .footer {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   background: #ddd;
 }
@@ -94,6 +94,7 @@ button{
       padding: 20px;
       padding-top:40px;
       border: 1px solid#010808;
+
     }
     .dropbtn {
   background-color: #4CAF50;
@@ -134,7 +135,6 @@ button{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
 </style>
 </head>
 <body>
@@ -142,57 +142,128 @@ button{
   <h1>ROAD TRANSPORT DEPARTMENT</h1>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark ">
-  <div class="container-fluid">
-      <a class="navbar-brand" href="#">RTD</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- <div style="align-content: flex-end;"> -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-              <li class="nav-item ">
-                  <a class="nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="Mydocuments.html">MY DOCUMENTS</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="Register.html">REGISTRATION</a>
-              </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="Applylicense.html">LICENSE</a>
-              </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="Applypermit.html">PERMIT</a>
-              </li>
-      </div>
-  <!-- </div> -->
-  <div style="align-content: flex-end;">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ">
-              <li class="nav-item ">
-                  <a class="nav-link" href="index.html" style="margin-right: 10px;">LOGOUT</a>
-              </li>
-          </ul>
-      </div>
-  </div>
-      
-</nav>
-<div id="myreg" class="container"><br>
-  <div class="dropdown">
-    <button class="dropbtn">VIEW DOCUMENTS</button>
-    <div class="dropdown-content">
-    <a href="registration.html">REGISTRATION CERTIFICATES</a>
-    <a href="license.html">LICENSE</a>
-    <a href="permit.html">PERMITS</a>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">RTD</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div style="align-content: flex-end;"> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Mydocuments.html">MY DOCUMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Register.html">REGISTRATION</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Applylicense.html">LICENSE</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Applypermit.html">PERMIT</a>
+                </li>
+        </div>
+    <!-- </div> -->
+    <div style="align-content: flex-end;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" style="margin-right: 10px;">LOGOUT</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
+        
+</nav> 
+<div id="myreg" class="container"><br>
     <!-- <div>
-        <button style="scroll-margin-right: auto;background-color: blue;"><a href="Applypermit.html" style="text-decoration:none;color:white" >Apply for permit</a></button>
+        <button style="scroll-margin-right: auto;background-color: blue;"><a href="Register.html" style="text-decoration:none;color:white" >Click here for new registration</a></button>
     </div> -->
-    <h3 style="text-align: center;">MY PERMITS</h3>
+    <div class="dropdown">
+      <button class="dropbtn">VIEW DOCUMENTS</button>
+      <div class="dropdown-content">
+      <a href="registration.html">REGISTRATION CERTIFICATES</a>
+      <a href="license.html">LICENSE</a>
+      <a href="permit.html">PERMITS</a>
+      </div>
+    </div>
+    <h3 style="text-align: center;">MY REGISTRATIONS</h3>
     <br>
-    
+    <div class="table-responsive">
+
+    <table class="table" id="Info">
+      <tr>
+          <th>S.No</th>
+          <th>OWNER NAME</th>
+          <th>REGISTRATION NUMBER</th>
+          <th>VEHICLE MODEL</th>
+          <th>REGISTRATION DATE</th>
+          <th>RC STATUS</th>
+          <th>Download RC</th>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table> 
+  <h3 style="text-align: center;">MY LICENSE</h3>
+  <br>
+  <table id="Info">
+    <tr><td>LICENSE NUMBER:</td></tr>
+    <tr><td>HOLDER'S NAME:</td></tr>
+    <tr><td>ADDRESS:</td></tr>
+    <tr><td>MOBILE NUMBER:</td></tr>
+    <tr><td>DATE OF ISSUE:</td></tr>
+    <tr><td>VALIDITY:</td></tr>
+</table>
+<br> 
+</div>
+<h3 style="text-align: center;">MY PERMITS</h3>
+    <br>
     <div class="table-responsive">
 
     <table class="table" id="Info">
@@ -251,10 +322,8 @@ button{
         <td></td>
       </tr>
   </table>  
-</div>
-<div>
 <button onclick="window.print()">Print</button>
-</div>
+
 </div>
 <div class="footer ">
     <h2>@Copyright <a href=https://www.kmit.in/"> kmit </a> 2020- All Right Reserved. </h2>
